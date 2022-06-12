@@ -5,20 +5,23 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Devkant21/Rest_API.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Devkant Swargiary",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Devkant21/Rest_API/issues"
   },
   "homepage": "https://github.com/Devkant21/Rest_API#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
